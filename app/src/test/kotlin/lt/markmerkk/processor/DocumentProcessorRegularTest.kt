@@ -5,7 +5,7 @@ import org.assertj.core.api.Assertions
 import org.assertj.core.api.Assertions.assertThat
 import org.testng.annotations.Test
 
-class DocumentProcessorTest {
+class DocumentProcessorRegularTest {
     @Test
     fun valid() {
         // Assemble

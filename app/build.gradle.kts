@@ -48,7 +48,7 @@ tasks.withType(Test::class) {
 
 /**
  * Example usage
- * ./gradlew -Pgroups=test-pdf-template-pdf-march :ws:testTemplates
+ * ./gradlew -PtestGroup=test-pdf-template :app:testTemplates
  * Groups are in [integration.utils.TestConsts]
  */
 tasks.register("testTemplates", Test::class) {
