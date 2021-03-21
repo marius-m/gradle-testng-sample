@@ -18,6 +18,9 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.4.21")
     implementation("org.jetbrains.kotlin:kotlin-reflect:1.4.21")
 
+    // Other
+    implementation("commons-io:commons-io:2.8.0")
+
     // Test
     testImplementation("org.testng:testng:7.4.0")
     testImplementation("org.testng:reportng:1.2.2")
